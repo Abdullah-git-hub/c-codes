@@ -1,6 +1,6 @@
 /*
     Author: Abdullah Al Arafat
-    Description: Printing "I Love bangladesh"
+    Description: calculating the sum of all odd numbers between 1 to 500 using loop
     Date: 06-March-2022
 */
 
@@ -10,7 +10,7 @@
 
 // main function
 int main(){
-    printf("I Love Bangladesh");
+    
 
     return 0;
 }
