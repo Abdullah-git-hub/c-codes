@@ -31,6 +31,17 @@ void showHCF(){
       count2++;
     }
   }
+
+  printf("\nThe divisors of %d are: ", a);
+  for(int i = 0; i < count1; i++){
+    printf("%d, ", divNum1[i]);
+  }
+
+  printf("\nThe divisors of %d are: ", b);
+  for(int i = 0; i < count2; i++){
+    printf("%d, ", divNum2[i]);
+  }
+
   long HFC = 0;
   
   for(int i = count1-1; i >= 0; i--){
